@@ -1,0 +1,10 @@
+# Игнорировать все объектные файлы
+.vscode
+
+
+configDb
+obj
+coverage_report
+bin
+coverage.info
+

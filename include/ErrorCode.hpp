@@ -1,0 +1,21 @@
+// include/ErrorCode.hpp
+
+#ifndef ERROR_CODE_HPP
+#define ERROR_CODE_HPP
+
+enum class ConfiguratorErrorCode
+{
+    SUCCESS = 0,
+    LOGIN_ALREADY_EXISTS,
+    LOGIN_NOT_FOUND,
+    PASSWORD_TOO_SHORT,
+    PASSWORD_INVALID_CHARS,
+    PASSWORD_REUSED,
+    ROLE_NOT_FOUND,
+    DATABASE_ERROR,
+    END_OF_TABLE,
+    HASHING_ERROR,
+    PASSWORDS_DONT_MATCH
+};
+
+#endif
