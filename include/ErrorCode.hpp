@@ -18,4 +18,15 @@ enum class ConfiguratorErrorCode
     PASSWORDS_DONT_MATCH
 };
 
+enum class UserErrorCode
+{
+    SUCCESS = 0,
+    LOGIN_ENTERING_ERROR,
+    PASSWORD_ENTERING_ERROR,
+    LOGIN_NOT_EXISTS,
+    GETTING_DATA_FROM_DB_ERROR,
+    WRONG_PASSWORD,
+    PASSWORD_HAS_EXPIRED
+};
+
 #endif
